@@ -9,6 +9,8 @@ So this is how the flow works
 2) addItem simply adds an item to a collection
 3) however step2 also binds a function when add is triggered, and that is appendItem
 4) appendItem actually creates and li and appends it to the list
+
+A collection can hold objects belonging to one model only
 */
 $(document).ready(function(){
 	
